@@ -21,7 +21,7 @@ The Operate First initiative currently manages two clusters within the MOC envir
 
 The Operate First community deploys the following cluster within the EMEA region.
 
-- [`Rick` cluster][rick] for experimental user workloads
+- [`Morty` cluster][morty] for experimental user workloads
 
 ### [OS-Climate][24]
 
@@ -57,7 +57,7 @@ Operate First manages various applications and services in the environments list
         * Anyone can enable their applications deployed on the Smaug cluster to be monitored by this Prometheus instance
         * To do so, follow the instructions [here][8] and make a pull request against this repo
     * Loki is used to query logs; click [here][9] to learn more about sending or retrieving logs using Loki
-    * Thanos: http://thanos-query-frontend-opf-observatorium.apps.zero.massopen.cloud
+    * Thanos: https://thanos-querier-openshift-monitoring.apps.smaug.na.operate-first.cloud
 
 * [OpenShift Data Foundation][20]
     * We deploy the OpenShift Data Foundation (ODF) operator on the Smaug cluster
@@ -90,7 +90,7 @@ Operate First manages various applications and services in the environments list
 [24]: https://github.com/os-climate/os_c_data_commons
 [smaug]: https://console-openshift-console.apps.smaug.na.operate-first.cloud/
 [infra]: https://console-openshift-console.apps.moc-infra.massopen.cloud/
-[rick]: https://console-openshift-console.apps.rick.emea.operate-first.cloud/
+[morty]: https://console-openshift-console.apps.morty.emea.operate-first.cloud/
 [osc-cl]: https://console-openshift-console.apps.odh-cl1.apps.os-climate.org/dashboards
 [odh1]: odh/README.md
 [odh2]: https://odh.operate-first.cloud/
