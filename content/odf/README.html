@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Adding permissions in Grafana &#8212; GitOps Docs</title>
+    <title>OpenShift Data Foundation &#8212; GitOps Docs</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -53,8 +53,8 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../../_static/favicon.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Prometheus" href="../prometheus/README.html" />
-    <link rel="prev" title="Add a Grafana dashboard to OperateFirst Grafana" href="add_grafana_dashboard.html" />
+    <link rel="next" title="Accessing buckets from outside the cluster" href="buckets-external-access.html" />
+    <link rel="prev" title="Vector on Operate First" href="../observatorium/vector/README.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -403,23 +403,40 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
   </ul>
  </li>
- <li class="toctree-l1 current active has-children">
-  <a class="reference internal" href="README.html">
-   Grafana
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../kubeval/README.html">
+   Kubeval validation
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
   <label for="toctree-checkbox-10">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul class="current">
+  <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="add_grafana_dashboard.html">
+    <a class="reference internal" href="../kubeval/updating_schema_store.html">
+     Updating schemas in schema store
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../grafana/docs/README.html">
+   Grafana
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+  <label for="toctree-checkbox-11">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../grafana/docs/add_grafana_dashboard.html">
      Add a Grafana dashboard to OperateFirst Grafana
     </a>
    </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../grafana/docs/map_groups_to_roles.html">
      Adding permissions in Grafana
     </a>
    </li>
@@ -434,8 +451,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../observatorium/README.html">
    Observatorium
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
-  <label for="toctree-checkbox-11">
+  <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
+  <label for="toctree-checkbox-12">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -472,29 +489,29 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
   </ul>
  </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../ocs/README.html">
-   OpenShift Container Storage
+ <li class="toctree-l1 current active has-children">
+  <a class="current reference internal" href="#">
+   OpenShift Data Foundation
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
-  <label for="toctree-checkbox-12">
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
+  <label for="toctree-checkbox-13">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../ocs/buckets-external-access.html">
+    <a class="reference internal" href="buckets-external-access.html">
      Accessing buckets from outside the cluster
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../ocs/claiming_object_store.html">
+    <a class="reference internal" href="claiming_object_store.html">
      Claiming S3-compatible object store buckets
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../ocs/runbook.html">
-     OpenShift Container Storage (OCS) Runbook
+    <a class="reference internal" href="runbook.html">
+     OpenShift Data Foundation (ODF) Runbook
     </a>
    </li>
   </ul>
@@ -503,8 +520,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../odh/README.html">
    Open Data Hub (ODH)
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
-  <label for="toctree-checkbox-13">
+  <input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/>
+  <label for="toctree-checkbox-14">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -513,8 +530,8 @@ const thebe_selector_output = ".output, .cell_output"
     <a class="reference internal" href="../odh/jupyterhub/README.html">
      JupyterHub
     </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/>
-    <label for="toctree-checkbox-14">
+    <input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" type="checkbox"/>
+    <label for="toctree-checkbox-15">
      <i class="fas fa-chevron-down">
      </i>
     </label>
@@ -560,8 +577,8 @@ const thebe_selector_output = ".output, .cell_output"
     <a class="reference internal" href="../odh/superset/README.html">
      Superset
     </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" type="checkbox"/>
-    <label for="toctree-checkbox-15">
+    <input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" type="checkbox"/>
+    <label for="toctree-checkbox-16">
      <i class="fas fa-chevron-down">
      </i>
     </label>
@@ -592,8 +609,8 @@ const thebe_selector_output = ".output, .cell_output"
     <a class="reference internal" href="../odh/trino/README.html">
      Trino
     </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" type="checkbox"/>
-    <label for="toctree-checkbox-16">
+    <input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" type="checkbox"/>
+    <label for="toctree-checkbox-17">
      <i class="fas fa-chevron-down">
      </i>
     </label>
@@ -631,8 +648,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../openmetadata/README.html">
    OpenMetaData
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" type="checkbox"/>
-  <label for="toctree-checkbox-17">
+  <input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" type="checkbox"/>
+  <label for="toctree-checkbox-18">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -653,8 +670,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../reloader/README.html">
    Reloader
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" type="checkbox"/>
-  <label for="toctree-checkbox-18">
+  <input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" type="checkbox"/>
+  <label for="toctree-checkbox-19">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -670,8 +687,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../uwm/README.html">
    User WorkLoad Monitoring
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" type="checkbox"/>
-  <label for="toctree-checkbox-19">
+  <input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" type="checkbox"/>
+  <label for="toctree-checkbox-20">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -687,8 +704,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../volsync/README.html">
    Volsync
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" type="checkbox"/>
-  <label for="toctree-checkbox-20">
+  <input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" type="checkbox"/>
+  <label for="toctree-checkbox-21">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -704,8 +721,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../opentelemetry-collector/README.html">
    OpenTelemetry Collector
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" type="checkbox"/>
-  <label for="toctree-checkbox-21">
+  <input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" type="checkbox"/>
+  <label for="toctree-checkbox-22">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -721,8 +738,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../jaeger/README.html">
    Jaeger
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" type="checkbox"/>
-  <label for="toctree-checkbox-22">
+  <input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" type="checkbox"/>
+  <label for="toctree-checkbox-23">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -738,8 +755,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../notebooks/README.html">
    Notebooks
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" type="checkbox"/>
-  <label for="toctree-checkbox-23">
+  <input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" type="checkbox"/>
+  <label for="toctree-checkbox-24">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -765,8 +782,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../templates/README.html">
    Templates
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" type="checkbox"/>
-  <label for="toctree-checkbox-24">
+  <input class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" type="checkbox"/>
+  <label for="toctree-checkbox-25">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -873,7 +890,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/operate-first/apps/issues/new?title=Issue%20on%20page%20%2Fcontent/grafana/map_groups_to_roles.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/operate-first/apps/issues/new?title=Issue%20on%20page%20%2Fcontent/odf/README.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -901,7 +918,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../../_sources/content/grafana/map_groups_to_roles.md"
+        <a href="../../_sources/content/odf/README.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -938,70 +955,23 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
-</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Adding permissions in Grafana
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#give-ocp-group-grafana-role">
-   Give OCP group Grafana role
-  </a>
- </li>
-</ul>
-
-    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Adding permissions in Grafana</h1>
+                <h1>OpenShift Data Foundation</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Adding permissions in Grafana
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#give-ocp-group-grafana-role">
-   Give OCP group Grafana role
-  </a>
- </li>
-</ul>
-
-                        </nav>
                     </div>
                 </div>
             </div>
@@ -1009,34 +979,10 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="adding-permissions-in-grafana">
-<h1>Adding permissions in Grafana<a class="headerlink" href="#adding-permissions-in-grafana" title="Permalink to this headline">#</a></h1>
-<p>All Grafana deployments are configured via OAUTH using the Dex connector. Permissions are distributed by mapping Grafana
-<a class="reference external" href="https://grafana.com/docs/grafana/latest/permissions/organization_roles/">roles</a> to OCP groups. This is done by updating the <code class="docutils literal notranslate"><span class="pre">role_attribute_path</span></code> as described <a class="reference external" href="https://grafana.com/docs/grafana/latest/auth/generic-oauth/#jmespath-examples">here</a> via
-the Grafana CR.</p>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="give-ocp-group-grafana-role">
-<h1>Give OCP group Grafana role<a class="headerlink" href="#give-ocp-group-grafana-role" title="Permalink to this headline">#</a></h1>
-<p>Navigate to the Grafana CR, for the Grafana instance on the MOC environment <a class="reference external" href="https://github.com/operate-first/apps/blob/master/grafana/overlays/moc/smaug/grafana-oauth.yaml">here</a>.
-Find the attribute: <code class="docutils literal notranslate"><span class="pre">role_attribute_path</span></code> under <code class="docutils literal notranslate"><span class="pre">spec.config.auth.generic_oauth</span></code></p>
-<p>You will see something like the following:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="w">  </span><span class="nt">role_attribute_path</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span><span class="w"></span>
-<span class="w">    </span><span class="no">contains(groups[*], &#39;operate-first&#39;) &amp;&amp; &#39;Admin&#39; ||</span><span class="w"></span>
-<span class="w">    </span><span class="no">contains(groups[*], &#39;data-science&#39;) &amp;&amp; &#39;Viewer&#39; ||</span><span class="w"></span>
-<span class="w">    </span><span class="no">&#39;Deny&#39;</span><span class="w"></span>
-</pre></div>
+  <section class="tex2jax_ignore mathjax_ignore" id="openshift-data-foundation">
+<h1>OpenShift Data Foundation<a class="headerlink" href="#openshift-data-foundation" title="Permalink to this headline">#</a></h1>
+<div class="toctree-wrapper compound">
 </div>
-<p>Add a line before <code class="docutils literal notranslate"><span class="pre">Deny</span></code> in the form of <code class="docutils literal notranslate"><span class="pre">contains(groups[*],</span> <span class="pre">'&lt;YOUR_OCP_GROUP&gt;')</span> <span class="pre">&amp;&amp;</span> <span class="pre">'&lt;GRAFANA_ROLE&gt;'</span> <span class="pre">||</span></code>.
-For example if we wanted to give the OCP group “my-team” the “Editor” Grafana role, we would update the field like so:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="w">  </span><span class="nt">role_attribute_path</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span><span class="w"></span>
-<span class="w">    </span><span class="no">contains(groups[*], &#39;operate-first&#39;) &amp;&amp; &#39;Admin&#39; ||</span><span class="w"></span>
-<span class="w">    </span><span class="no">contains(groups[*], &#39;data-science&#39;) &amp;&amp; &#39;Viewer&#39; ||</span><span class="w"></span>
-<span class="w">    </span><span class="no">contains(groups[*], &#39;my-team&#39;) &amp;&amp; &#39;Editor&#39; ||</span><span class="w"></span>
-<span class="w">    </span><span class="no">&#39;Deny&#39;</span><span class="w"></span>
-</pre></div>
-</div>
-<p>Alternatively, if you do not want to create your own group and simply want read-only access to grafana, you can also just add yourself to the <a class="reference external" href="https://github.com/operate-first/apps/blob/master/cluster-scope/base/user.openshift.io/groups/grafana-viewer/group.yaml"><code class="docutils literal notranslate"><span class="pre">grafana-viewer</span></code> group</a>.</p>
-<p>Submit a PR with the changes.</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -1052,7 +998,7 @@ For example if we wanted to give the OCP group “my-team” the “Editor” Gr
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./content/grafana"
+            path: "./content/odf"
         },
         predefinedOutput: true
     }
@@ -1066,17 +1012,17 @@ For example if we wanted to give the OCP group “my-team” the “Editor” Gr
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="add_grafana_dashboard.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="../observatorium/vector/README.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Add a Grafana dashboard to OperateFirst Grafana</p>
+            <p class="prev-next-title">Vector on Operate First</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../prometheus/README.html" title="next page">
+    <a class='right-next' id="next-link" href="buckets-external-access.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Prometheus</p>
+        <p class="prev-next-title">Accessing buckets from outside the cluster</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

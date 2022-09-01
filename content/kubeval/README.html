@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>OpenShift Container Storage (OCS) Runbook &#8212; GitOps Docs</title>
+    <title>Kubeval validation &#8212; GitOps Docs</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -53,8 +53,8 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../../_static/favicon.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Open Data Hub (ODH)" href="../odh/README.html" />
-    <link rel="prev" title="Claiming S3-compatible object store buckets" href="claiming_object_store.html" />
+    <link rel="next" title="Updating schemas in schema store" href="updating_schema_store.html" />
+    <link rel="prev" title="Kafka Runbook" href="../kafka/runbook.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -403,23 +403,40 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
   </ul>
  </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../grafana/README.html">
-   Grafana
+ <li class="toctree-l1 current active has-children">
+  <a class="current reference internal" href="#">
+   Kubeval validation
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
   <label for="toctree-checkbox-10">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../grafana/add_grafana_dashboard.html">
+    <a class="reference internal" href="updating_schema_store.html">
+     Updating schemas in schema store
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../grafana/docs/README.html">
+   Grafana
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+  <label for="toctree-checkbox-11">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../grafana/docs/add_grafana_dashboard.html">
      Add a Grafana dashboard to OperateFirst Grafana
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../grafana/map_groups_to_roles.html">
+    <a class="reference internal" href="../grafana/docs/map_groups_to_roles.html">
      Adding permissions in Grafana
     </a>
    </li>
@@ -434,8 +451,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../observatorium/README.html">
    Observatorium
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
-  <label for="toctree-checkbox-11">
+  <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
+  <label for="toctree-checkbox-12">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -472,29 +489,29 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
   </ul>
  </li>
- <li class="toctree-l1 current active has-children">
-  <a class="reference internal" href="README.html">
-   OpenShift Container Storage
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../odf/README.html">
+   OpenShift Data Foundation
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
-  <label for="toctree-checkbox-12">
+  <input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
+  <label for="toctree-checkbox-13">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul class="current">
+  <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="buckets-external-access.html">
+    <a class="reference internal" href="../odf/buckets-external-access.html">
      Accessing buckets from outside the cluster
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="claiming_object_store.html">
+    <a class="reference internal" href="../odf/claiming_object_store.html">
      Claiming S3-compatible object store buckets
     </a>
    </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
-     OpenShift Container Storage (OCS) Runbook
+   <li class="toctree-l2">
+    <a class="reference internal" href="../odf/runbook.html">
+     OpenShift Data Foundation (ODF) Runbook
     </a>
    </li>
   </ul>
@@ -503,8 +520,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../odh/README.html">
    Open Data Hub (ODH)
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
-  <label for="toctree-checkbox-13">
+  <input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/>
+  <label for="toctree-checkbox-14">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -513,8 +530,8 @@ const thebe_selector_output = ".output, .cell_output"
     <a class="reference internal" href="../odh/jupyterhub/README.html">
      JupyterHub
     </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/>
-    <label for="toctree-checkbox-14">
+    <input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" type="checkbox"/>
+    <label for="toctree-checkbox-15">
      <i class="fas fa-chevron-down">
      </i>
     </label>
@@ -560,8 +577,8 @@ const thebe_selector_output = ".output, .cell_output"
     <a class="reference internal" href="../odh/superset/README.html">
      Superset
     </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" type="checkbox"/>
-    <label for="toctree-checkbox-15">
+    <input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" type="checkbox"/>
+    <label for="toctree-checkbox-16">
      <i class="fas fa-chevron-down">
      </i>
     </label>
@@ -592,8 +609,8 @@ const thebe_selector_output = ".output, .cell_output"
     <a class="reference internal" href="../odh/trino/README.html">
      Trino
     </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" type="checkbox"/>
-    <label for="toctree-checkbox-16">
+    <input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" type="checkbox"/>
+    <label for="toctree-checkbox-17">
      <i class="fas fa-chevron-down">
      </i>
     </label>
@@ -631,8 +648,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../openmetadata/README.html">
    OpenMetaData
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" type="checkbox"/>
-  <label for="toctree-checkbox-17">
+  <input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" type="checkbox"/>
+  <label for="toctree-checkbox-18">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -653,8 +670,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../reloader/README.html">
    Reloader
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" type="checkbox"/>
-  <label for="toctree-checkbox-18">
+  <input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" type="checkbox"/>
+  <label for="toctree-checkbox-19">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -670,8 +687,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../uwm/README.html">
    User WorkLoad Monitoring
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" type="checkbox"/>
-  <label for="toctree-checkbox-19">
+  <input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" type="checkbox"/>
+  <label for="toctree-checkbox-20">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -687,8 +704,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../volsync/README.html">
    Volsync
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" type="checkbox"/>
-  <label for="toctree-checkbox-20">
+  <input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" type="checkbox"/>
+  <label for="toctree-checkbox-21">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -704,8 +721,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../opentelemetry-collector/README.html">
    OpenTelemetry Collector
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" type="checkbox"/>
-  <label for="toctree-checkbox-21">
+  <input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" type="checkbox"/>
+  <label for="toctree-checkbox-22">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -721,8 +738,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../jaeger/README.html">
    Jaeger
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" type="checkbox"/>
-  <label for="toctree-checkbox-22">
+  <input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" type="checkbox"/>
+  <label for="toctree-checkbox-23">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -738,8 +755,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../notebooks/README.html">
    Notebooks
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" type="checkbox"/>
-  <label for="toctree-checkbox-23">
+  <input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" type="checkbox"/>
+  <label for="toctree-checkbox-24">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -765,8 +782,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../templates/README.html">
    Templates
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" type="checkbox"/>
-  <label for="toctree-checkbox-24">
+  <input class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" type="checkbox"/>
+  <label for="toctree-checkbox-25">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -873,7 +890,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/operate-first/apps/issues/new?title=Issue%20on%20page%20%2Fcontent/ocs/runbook.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/operate-first/apps/issues/new?title=Issue%20on%20page%20%2Fcontent/kubeval/README.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -901,7 +918,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../../_sources/content/ocs/runbook.md"
+        <a href="../../_sources/content/kubeval/README.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -961,53 +978,9 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#prerequisites">
-   Prerequisites
+  <a class="reference internal nav-link" href="#usage">
+   Usage
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#identify-the-problem">
-   Identify the problem
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#troubleshooting-software-problems">
-   Troubleshooting software problems
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#noobaa-object-storage">
-     Noobaa object storage
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#troubleshooting-ceph-connectivity">
-   Troubleshooting Ceph connectivity
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#configure-credentials">
-     Configure credentials
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#check-ceph-status">
-     Check ceph status
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#check-rbd-access">
-     Check RBD access
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#check-that-you-can-create-and-delete-rbd-volumes">
-     Check that you can create and delete RBD volumes
-    </a>
-   </li>
-  </ul>
  </li>
 </ul>
 
@@ -1018,7 +991,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>OpenShift Container Storage (OCS) Runbook</h1>
+                <h1>Kubeval validation</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -1029,53 +1002,9 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#prerequisites">
-   Prerequisites
+  <a class="reference internal nav-link" href="#usage">
+   Usage
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#identify-the-problem">
-   Identify the problem
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#troubleshooting-software-problems">
-   Troubleshooting software problems
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#noobaa-object-storage">
-     Noobaa object storage
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#troubleshooting-ceph-connectivity">
-   Troubleshooting Ceph connectivity
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#configure-credentials">
-     Configure credentials
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#check-ceph-status">
-     Check ceph status
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#check-rbd-access">
-     Check RBD access
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#check-that-you-can-create-and-delete-rbd-volumes">
-     Check that you can create and delete RBD volumes
-    </a>
-   </li>
-  </ul>
  </li>
 </ul>
 
@@ -1087,162 +1016,30 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="openshift-container-storage-ocs-runbook">
-<h1>OpenShift Container Storage (OCS) Runbook<a class="headerlink" href="#openshift-container-storage-ocs-runbook" title="Permalink to this headline">#</a></h1>
-<section id="prerequisites">
-<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">#</a></h2>
-<p>You must be a cluster admin on the target OpenShift cluster.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="kubeval-validation">
+<h1>Kubeval validation<a class="headerlink" href="#kubeval-validation" title="Permalink to this headline">#</a></h1>
+<p>As a part of our CI pipelines in <code class="docutils literal notranslate"><span class="pre">apps</span></code> repository we are using kubeval to validate our schemas. Kubeval checks validity of the CRDs against the schemas stored in schema-store repository. If there are any errors, it is reported. This approach will check for api errors that can sneak through the <code class="docutils literal notranslate"><span class="pre">kustomize</span> <span class="pre">build</span></code> command. For example in following manifest <code class="docutils literal notranslate"><span class="pre">spec.port.targetPort</span></code> is not valid:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">route.openshift.io/v1</span><span class="w"></span>
+<span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Route</span><span class="w"></span>
+<span class="nt">metadata</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">kafdrop-route</span><span class="w"></span>
+<span class="nt">spec</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">port</span><span class="p">:</span><span class="w"></span>
+<span class="w">    </span><span class="nt">targetPort</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">null</span><span class="w"></span>
+<span class="w">  </span><span class="nt">to</span><span class="p">:</span><span class="w"></span>
+<span class="w">    </span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Service</span><span class="w"></span>
+<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">kafdrop</span><span class="w"></span>
+</pre></div>
+</div>
+<p>This manifest will be properly build using <code class="docutils literal notranslate"><span class="pre">kustomize</span> <span class="pre">build</span></code> but <code class="docutils literal notranslate"><span class="pre">kubeval</span></code> will be able to catch this issue and report it back.</p>
+<section id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">#</a></h2>
+<p>We can use kubeval on manifests which are either stored in files or we can input manifests from stdin. This is useful in our case, because we can pipe output from <code class="docutils literal notranslate"><span class="pre">kustomize</span> <span class="pre">build</span></code> to kubeval and check if manifests are correct.</p>
+<p>By default <code class="docutils literal notranslate"><span class="pre">kubeval</span></code> uses default schemas which can be found <a class="reference external" href="https://kubernetesjsonschema.dev">here</a>. This is not ideal in our case because we have many CRDs which do not have schemas in default repository. For this reason we are generating our own schemas and using them in kubeval (more about how we are generating and updating schemas can be found <a class="reference external" href="https://www.operate-first.cloud/apps/content/kubeval/updating_schema_store.html">here</a> and script used for generating schemas can be found <a class="reference external" href="https://github.com/operate-first/toolbox/blob/master/scripts/test-kubeval-validation">here</a>). To use generated schemas we are using <code class="docutils literal notranslate"><span class="pre">--schema-location</span></code> option.</p>
+<p>We are also using <code class="docutils literal notranslate"><span class="pre">--strict</span></code> option which allows no additional properties in schema. Last option we specify is <code class="docutils literal notranslate"><span class="pre">--skip-kinds</span></code> which allows us to skip validation of CRDs which don’t have valid schemas.</p>
 </section>
-<section id="identify-the-problem">
-<h2>Identify the problem<a class="headerlink" href="#identify-the-problem" title="Permalink to this headline">#</a></h2>
-<ul class="simple">
-<li><p>Are existing PVs available?</p></li>
-<li><p>If you create a new <code class="docutils literal notranslate"><span class="pre">PersistentVolumeClaim</span></code>, does it bind immediately to a PV?</p></li>
-<li><p>Are you able to access existing object buckets?</p>
-<ul>
-<li><p>From inside the cluster?</p></li>
-<li><p>From outside the cluster?</p></li>
-</ul>
-</li>
-<li><p>If you create a new <code class="docutils literal notranslate"><span class="pre">ObjectBucketClaim</span></code>, does it bind immediately to
-a new bucket?</p></li>
-</ul>
-<p>If <em>some</em> of the above steps work, there is (probably) a software
-problem on the cluster. Continue with “Troubleshooting software
-problems”.</p>
-<p>If <em>none</em> of the above steps work, it may be a connectivity problem
-with the Ceph service; continue with “Troubleshooting Ceph
-connectivity”.</p>
-</section>
-<section id="troubleshooting-software-problems">
-<h2>Troubleshooting software problems<a class="headerlink" href="#troubleshooting-software-problems" title="Permalink to this headline">#</a></h2>
-<p>Generally, troubleshooting problems with the storage subsystem is
-going to be very much like troubleshooting issues with any other
-application running on OpenShift:</p>
-<ul class="simple">
-<li><p>Look for unhealthy pods (<code class="docutils literal notranslate"><span class="pre">oc</span> <span class="pre">get</span> <span class="pre">pod</span> <span class="pre">|</span> <span class="pre">grep</span> <span class="pre">-Evi</span> <span class="pre">'running|completed'</span></code>).</p></li>
-<li><p>Inspect the logs of unhealthy pods (<code class="docutils literal notranslate"><span class="pre">oc</span> <span class="pre">logs</span> <span class="pre">...</span></code>).</p></li>
-<li><p>Inspect events for any errors (<code class="docutils literal notranslate"><span class="pre">oc</span> <span class="pre">get</span> <span class="pre">events</span></code>).</p></li>
-</ul>
-<section id="noobaa-object-storage">
-<h3>Noobaa object storage<a class="headerlink" href="#noobaa-object-storage" title="Permalink to this headline">#</a></h3>
-<p>To check the status of the Noobaa object storage service, install the
-Noobaa CLI from the <a class="reference external" href="https://github.com/noobaa/noobaa-operator/releases">releases
-page</a> and then
-run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">noobaa</span> <span class="o">-</span><span class="n">n</span> <span class="n">openshift</span><span class="o">-</span><span class="n">storage</span> <span class="n">status</span>
-</pre></div>
+<div class="toctree-wrapper compound">
 </div>
-<p>This will emit a variety of validation messages on <em>stderr</em> and some
-status information on <em>stdout</em>.  The validation messages look
-something like:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">time</span><span class="o">=</span><span class="s2">&quot;2021-11-23T17:07:41-05:00&quot;</span> <span class="n">level</span><span class="o">=</span><span class="n">info</span> <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;CRD Status:&quot;</span>
-<span class="n">time</span><span class="o">=</span><span class="s2">&quot;2021-11-23T17:07:41-05:00&quot;</span> <span class="n">level</span><span class="o">=</span><span class="n">info</span> <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;✅ Exists: CustomResourceDefinition </span><span class="se">\&quot;</span><span class="s2">noobaas.noobaa.io</span><span class="se">\&quot;\n</span><span class="s2">&quot;</span>
-<span class="p">[</span><span class="o">...</span><span class="p">]</span>
-<span class="n">time</span><span class="o">=</span><span class="s2">&quot;2021-11-23T17:07:41-05:00&quot;</span> <span class="n">level</span><span class="o">=</span><span class="n">info</span> <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;Operator Status:&quot;</span>
-<span class="n">time</span><span class="o">=</span><span class="s2">&quot;2021-11-23T17:07:41-05:00&quot;</span> <span class="n">level</span><span class="o">=</span><span class="n">info</span> <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;✅ Exists: Namespace </span><span class="se">\&quot;</span><span class="s2">openshift-storage</span><span class="se">\&quot;\n</span><span class="s2">&quot;</span>
-<span class="n">time</span><span class="o">=</span><span class="s2">&quot;2021-11-23T17:07:41-05:00&quot;</span> <span class="n">level</span><span class="o">=</span><span class="n">info</span> <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;✅ Exists: ServiceAccount </span><span class="se">\&quot;</span><span class="s2">noobaa</span><span class="se">\&quot;\n</span><span class="s2">&quot;</span>
-<span class="n">time</span><span class="o">=</span><span class="s2">&quot;2021-11-23T17:07:41-05:00&quot;</span> <span class="n">level</span><span class="o">=</span><span class="n">info</span> <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;✅ Exists: ServiceAccount </span><span class="se">\&quot;</span><span class="s2">noobaa-endpoint</span><span class="se">\&quot;\n</span><span class="s2">&quot;</span>
-<span class="p">[</span><span class="o">...</span><span class="p">]</span>
-<span class="n">time</span><span class="o">=</span><span class="s2">&quot;2021-11-23T17:07:41-05:00&quot;</span> <span class="n">level</span><span class="o">=</span><span class="n">info</span> <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;System Wait Ready:&quot;</span>
-<span class="n">time</span><span class="o">=</span><span class="s2">&quot;2021-11-23T17:07:41-05:00&quot;</span> <span class="n">level</span><span class="o">=</span><span class="n">info</span> <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;✅ System Phase is </span><span class="se">\&quot;</span><span class="s2">Ready</span><span class="se">\&quot;</span><span class="s2">.</span><span class="se">\n</span><span class="s2">&quot;</span>
-<span class="n">time</span><span class="o">=</span><span class="s2">&quot;2021-11-23T17:07:41-05:00&quot;</span> <span class="n">level</span><span class="o">=</span><span class="n">info</span>
-<span class="n">time</span><span class="o">=</span><span class="s2">&quot;2021-11-23T17:07:41-05:00&quot;</span> <span class="n">level</span><span class="o">=</span><span class="n">info</span>
-<span class="n">time</span><span class="o">=</span><span class="s2">&quot;2021-11-23T17:07:41-05:00&quot;</span> <span class="n">level</span><span class="o">=</span><span class="n">info</span> <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;System Status:&quot;</span>
-<span class="n">time</span><span class="o">=</span><span class="s2">&quot;2021-11-23T17:07:41-05:00&quot;</span> <span class="n">level</span><span class="o">=</span><span class="n">info</span> <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;✅ Exists: NooBaa </span><span class="se">\&quot;</span><span class="s2">noobaa</span><span class="se">\&quot;\n</span><span class="s2">&quot;</span>
-<span class="n">time</span><span class="o">=</span><span class="s2">&quot;2021-11-23T17:07:41-05:00&quot;</span> <span class="n">level</span><span class="o">=</span><span class="n">info</span> <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;✅ Exists: StatefulSet </span><span class="se">\&quot;</span><span class="s2">noobaa-core</span><span class="se">\&quot;\n</span><span class="s2">&quot;</span>
-<span class="p">[</span><span class="o">...</span><span class="p">]</span>
-<span class="n">time</span><span class="o">=</span><span class="s2">&quot;2021-11-23T17:07:42-05:00&quot;</span> <span class="n">level</span><span class="o">=</span><span class="n">info</span> <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;✅ System Phase is </span><span class="se">\&quot;</span><span class="s2">Ready</span><span class="se">\&quot;\n</span><span class="s2">&quot;</span>
-<span class="n">time</span><span class="o">=</span><span class="s2">&quot;2021-11-23T17:07:42-05:00&quot;</span> <span class="n">level</span><span class="o">=</span><span class="n">info</span> <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;✅ Exists:  </span><span class="se">\&quot;</span><span class="s2">noobaa-admin</span><span class="se">\&quot;\n</span><span class="s2">&quot;</span>
-</pre></div>
-</div>
-<p>The status information includes various configuration details,
-including the external URL for the Noobaa management interface. You
-should be able to log into that UI using your OpenShift credentials.</p>
-</section>
-</section>
-<section id="troubleshooting-ceph-connectivity">
-<h2>Troubleshooting Ceph connectivity<a class="headerlink" href="#troubleshooting-ceph-connectivity" title="Permalink to this headline">#</a></h2>
-<p>You can log into the <code class="docutils literal notranslate"><span class="pre">rook-ceph-tools</span></code> container to run Ceph commands
-to diagnose Ceph cluster health and connectivity problems. To log into
-the pod:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">oc</span> <span class="o">-</span><span class="n">n</span> <span class="n">openshift</span><span class="o">-</span><span class="n">storage</span> <span class="n">rsh</span> <span class="n">deploy</span><span class="o">/</span><span class="n">rook</span><span class="o">-</span><span class="n">ceph</span><span class="o">-</span><span class="n">tools</span>
-</pre></div>
-</div>
-<p>If this deployment isn’t available, you can enable it by <a class="reference external" href="https://access.redhat.com/articles/4628891">editing the
-<code class="docutils literal notranslate"><span class="pre">OCSInitialization</span></code>
-object</a> (accessing that
-link requires a Red Hat account).</p>
-<section id="configure-credentials">
-<h3>Configure credentials<a class="headerlink" href="#configure-credentials" title="Permalink to this headline">#</a></h3>
-<p>You will
-first need to make sure that appropriate credentials exist in
-<code class="docutils literal notranslate"><span class="pre">/etc/ceph</span></code>. Look at <code class="docutils literal notranslate"><span class="pre">/etc/ceph/keyring</span></code>; if it only contains…</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">client</span><span class="o">.</span><span class="n">admin</span><span class="p">]</span>
-<span class="n">key</span> <span class="o">=</span> <span class="n">admin</span><span class="o">-</span><span class="n">secret</span>
-</pre></div>
-</div>
-<p>…then you will need to add credentials for the user we use to
-authenticate to the ceph cluster.  You can obtain the appropriate
-credentials by running:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">oc</span> <span class="o">-</span><span class="n">n</span> <span class="n">openshift</span><span class="o">-</span><span class="n">storage</span> <span class="n">get</span> <span class="n">secret</span> <span class="n">rook</span><span class="o">-</span><span class="n">ceph</span><span class="o">-</span><span class="n">external</span><span class="o">-</span><span class="n">cluster</span><span class="o">-</span><span class="n">details</span> <span class="o">-</span><span class="n">o</span> <span class="n">json</span> <span class="o">|</span>
-  <span class="n">jq</span> <span class="o">-</span><span class="n">r</span> <span class="s1">&#39;.data.external_cluster_details|@base64d&#39;</span> <span class="o">|</span>
-  <span class="n">jq</span> <span class="s1">&#39;.[]|select(.name == &quot;rook-csi-rbd-provisioner&quot;)|.data&#39;</span>
-</pre></div>
-</div>
-<p>This will return a JSON block that looks like:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
-  <span class="s2">&quot;userID&quot;</span><span class="p">:</span> <span class="s2">&quot;...&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;userKey&quot;</span><span class="p">:</span> <span class="s2">&quot;...&quot;</span>
-<span class="p">}</span>
-</pre></div>
-</div>
-<p>Replace the contents of <code class="docutils literal notranslate"><span class="pre">/etc/ceph/keyring</span></code> with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">client</span><span class="o">.&lt;</span><span class="n">value</span> <span class="kn">from</span> <span class="nn">userID</span><span class="o">&gt;</span><span class="p">]</span>
-<span class="n">key</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">value</span> <span class="kn">from</span> <span class="nn">userKey</span><span class="o">&gt;</span>
-</pre></div>
-</div>
-</section>
-<section id="check-ceph-status">
-<h3>Check ceph status<a class="headerlink" href="#check-ceph-status" title="Permalink to this headline">#</a></h3>
-<p>Run the <code class="docutils literal notranslate"><span class="pre">ceph</span> <span class="pre">health</span></code> command:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ ceph --id provisioner-moc-rbd-1 health
-HEALTH_WARN 5 clients failing to respond to cache pressure; 12 nearfull osd(s); 1 pool(s) full; 23 pool(s) nearfull; 1 pgs not deep-scrubbed in time; 19 pgs not scrubbed in time
-</pre></div>
-</div>
-<p>What we care about here is that we get a valid response back from the
-Ceph cluster (that is, the command returns information about the
-health of the ceph cluster, rather than some sort of communication or
-authentication error, etc). In general we don’t care about the actual
-status value, because it might be in <code class="docutils literal notranslate"><span class="pre">WARN</span></code> or <code class="docutils literal notranslate"><span class="pre">ERROR</span></code> states due to
-problems that don’t actually impact our usage of the cluster.</p>
-</section>
-<section id="check-rbd-access">
-<h3>Check RBD access<a class="headerlink" href="#check-rbd-access" title="Permalink to this headline">#</a></h3>
-<p>Ensure that you can list volumes in our RBD pool:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ rbd --id provisioner-moc-rbd-1 --pool moc_rbd_1 ls
-</pre></div>
-</div>
-<p>This should return a list of CSI volumes, like:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">csi</span><span class="o">-</span><span class="n">vol</span><span class="o">-</span><span class="mi">0</span><span class="n">b5f9497</span><span class="o">-</span><span class="mi">40</span><span class="n">cb</span><span class="o">-</span><span class="mi">11</span><span class="n">ec</span><span class="o">-</span><span class="n">ac60</span><span class="o">-</span><span class="mi">0</span><span class="n">a580a8005aa</span>
-<span class="n">csi</span><span class="o">-</span><span class="n">vol</span><span class="o">-</span><span class="mi">15</span><span class="n">aac588</span><span class="o">-</span><span class="mi">3</span><span class="n">cdc</span><span class="o">-</span><span class="mi">11</span><span class="n">ec</span><span class="o">-</span><span class="n">ac60</span><span class="o">-</span><span class="mi">0</span><span class="n">a580a8005aa</span>
-<span class="n">csi</span><span class="o">-</span><span class="n">vol</span><span class="o">-</span><span class="mi">16</span><span class="n">bd1d89</span><span class="o">-</span><span class="mi">436</span><span class="n">a</span><span class="o">-</span><span class="mi">11</span><span class="n">ec</span><span class="o">-</span><span class="n">ac60</span><span class="o">-</span><span class="mi">0</span><span class="n">a580a8005aa</span>
-<span class="o">...</span>
-</pre></div>
-</div>
-</section>
-<section id="check-that-you-can-create-and-delete-rbd-volumes">
-<h3>Check that you can create and delete RBD volumes<a class="headerlink" href="#check-that-you-can-create-and-delete-rbd-volumes" title="Permalink to this headline">#</a></h3>
-<p>Try creating an RBD volume:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rbd</span> <span class="o">--</span><span class="nb">id</span> <span class="n">provisioner</span><span class="o">-</span><span class="n">moc</span><span class="o">-</span><span class="n">rbd</span><span class="o">-</span><span class="mi">1</span> <span class="o">--</span><span class="n">pool</span> <span class="n">moc_rbd_1</span> <span class="n">create</span> <span class="n">testvol</span> <span class="o">--</span><span class="n">size</span> <span class="mi">1</span><span class="n">G</span>
-</pre></div>
-</div>
-<p>And try to delete it:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rbd</span> <span class="o">--</span><span class="nb">id</span> <span class="n">provisioner</span><span class="o">-</span><span class="n">moc</span><span class="o">-</span><span class="n">rbd</span><span class="o">-</span><span class="mi">1</span> <span class="o">--</span><span class="n">pool</span> <span class="n">moc_rbd_1</span> <span class="n">rm</span> <span class="n">testvol</span>
-</pre></div>
-</div>
-</section>
-</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -1258,7 +1055,7 @@ problems that don’t actually impact our usage of the cluster.</p>
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./content/ocs"
+            path: "./content/kubeval"
         },
         predefinedOutput: true
     }
@@ -1272,17 +1069,17 @@ problems that don’t actually impact our usage of the cluster.</p>
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="claiming_object_store.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="../kafka/runbook.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Claiming S3-compatible object store buckets</p>
+            <p class="prev-next-title">Kafka Runbook</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../odh/README.html" title="next page">
+    <a class='right-next' id="next-link" href="updating_schema_store.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Open Data Hub (ODH)</p>
+        <p class="prev-next-title">Updating schemas in schema store</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
