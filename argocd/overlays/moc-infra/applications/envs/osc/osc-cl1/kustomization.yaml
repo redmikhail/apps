@@ -5,3 +5,4 @@ nameSuffix: -osc
 resources:
 - cluster-management
 - kepler
+- sostrades
